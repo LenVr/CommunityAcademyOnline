@@ -1,0 +1,49 @@
+
+
+/*Formularios labels and inputs*/
+
+#formularioDiv label{
+    margin: 20px;
+}
+
+#formularioDiv input{
+    border-radius: 5px;
+}
+
+#formularioDiv button{
+    margin-top: 40px;
+}
+
+.btnInscribirmeForm{
+    margin: 20px;
+    border: 1px solid;
+    border-color: black;
+    color: black;
+    cursor: pointer;
+    background: linear-gradient(to right, transparent 20%, #e2ce177c 50%);
+    background-size: 380px;
+    background-position: left;
+    transition: background-position 0.9s;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+}
+
+.btnInscribirmeForm:hover{
+    background-position: right;
+    color: black;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+/*Mostrar y esconder*/
+
+.hidden{
+    display: none;
+    width: fit-content;
+}
+
+.shown{
+    width: fit-content;
+}

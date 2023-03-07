@@ -1,0 +1,69 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.box {
+    width: 380px;
+    margin: 100px auto;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
+}
+
+.box .heading {
+    background: #F2CD5C;
+    border-radius: 7px 7px 0px 0px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text{
+    margin: 10px;
+}
+
+.faqs {
+    padding: 0px 20px 20px;
+}
+
+::-webkit-details-marker {
+    float: right;
+    margin-top: 3px;
+}
+
+details {
+    background: #f6f6f6;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+details summary {
+    outline: none;
+}
+
+/*Más preguntas*/
+
+#contBtnContact{
+    margin-top: 100px;
+}
+
+#contactBtn{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+    background-color: transparent ;
+    color: black;
+    border: 2px gray solid;
+    box-shadow: 6px 10px 10px;
+}
+
+#contactBtn:hover{
+    box-shadow: 2px 2px 2px;
+}
