@@ -117,7 +117,8 @@ html {
 }
 
 .lotties {
-    width: 30vw;
+    width: 299px;
+    height: 400px;
 
 }
 
@@ -157,7 +158,8 @@ html {
 
 #ScrollTop {
     position: fixed;
-    top: 770px;
+    top: 700px;
+    left: 0px;
     width: 2px;
 }
 
@@ -165,4 +167,35 @@ html {
 #ScrollTop a img {
     cursor: pointer;
     width: 200px;
+}
+
+/*Mision vision*/
+
+#misionV {
+    border-left: 4px solid #F2CD5C;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#misionVision {
+    background: linear-gradient(to right, #F2CD5C, 0.1%, #E0E0E0);
+}
+
+
+/*Trabajando en ello*/
+
+
+#Working{
+    width: 315px;
+    align-items: center;
+}
+
+#textoContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#title{
+    margin: auto;
+    justify-items: center;
 }
